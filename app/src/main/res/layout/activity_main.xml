@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A2A7CA"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/selectSensor"
+        android:layout_width="183dp"
+        android:layout_height="79dp"
+        android:background="@drawable/button_round"
+        android:padding="15dp"
+        android:text="SELECT A SENSOR"
+        android:textColor="#212121"
+        android:textSize="18sp"></Button>
+</LinearLayout>

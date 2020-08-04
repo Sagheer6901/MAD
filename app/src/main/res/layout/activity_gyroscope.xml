@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A2A7CA"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".AccelerometerActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:background="#A2A7CA"
+        android:padding="15dp"
+        android:text="GYROSCOPE DATA"
+        android:textColor="#212121"
+        android:textSize="24sp"
+        android:textStyle="bold"></TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_round"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/xGyroscope"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="X:  "
+            android:textColor="#212121"
+            android:textSize="15dp"></TextView>
+
+        <TextView
+            android:id="@+id/yGyroscope"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="Y:  "
+            android:textColor="#212121"
+            android:textSize="15dp"></TextView>
+
+        <TextView
+            android:id="@+id/zGyroscope"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="Z:  "
+            android:textColor="#212121"
+            android:textSize="15dp"></TextView>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/saveGyroData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button_round"
+        android:padding="15dp"
+        android:text="SAVE TO DATABASE"
+        android:textColor="#212121"></Button>
+
+    <Button
+        android:id="@+id/viewGyroData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/button_round"
+        android:padding="15dp"
+        android:text="VIEW DATABASE"
+        android:textColor="#212121"></Button>
+</LinearLayout>
